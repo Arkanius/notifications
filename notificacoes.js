@@ -3,7 +3,7 @@ notificacoes_check = function() {
 	if (window.Notification) {
 		return true;
 	} else {
-	  console.log("Hum... navegador sem suporte a notificações!.");
+	  console.log("Navegador sem suporte a notificações.");
 	  return false;
 	}
 
